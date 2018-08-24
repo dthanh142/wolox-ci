@@ -86,10 +86,10 @@ class ConfigParser {
     }
 
     static def parseProjectName(def config) {
-        if (!config || !config["project_name"]) {
+        if (!config || !config["projectName"]) {
             return "woloxci-project";
         }
 
-        return config["project_name"];
+        return config["projectName"];
     }
 }
